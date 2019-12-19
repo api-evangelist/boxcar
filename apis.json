@@ -1,0 +1,76 @@
+{
+    "name": "Boxcar",
+    "description": "For Developers: a push platform with SDKs, APIs and admin console.",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/714-boxcar.jpg",
+    "tags": [
+        "api provider",
+        "have api",
+        "notifications",
+        "relative data",
+        "service api",
+        "social"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/boxcar\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Box Car",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/714-boxcar.jpg",
+            "humanURL": "http:\/\/boxcar.io",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/box-car-openapi.json"
+                },
+                {
+                    "type": "x-openapi",
+                    "url": "http:\/\/kinlane-productions.s3.amazonaws.com\/api-evangelist-site\/company\/openapis\/box-car.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/blog.boxcar.io"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/blog.boxcar.io\/rss"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "http:\/\/www.crunchbase.com\/company\/boxcar"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/boxcar"
+        },
+        {
+            "type": "Developers",
+            "url": "https:\/\/boxcar.io\/developer"
+        },
+        {
+            "type": "Email",
+            "url": "help@boxcar.io"
+        },
+        {
+            "type": "Github",
+            "url": "https:\/\/github.com\/boxcar"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/boxcar"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/boxcar.io"
+        }
+    ]
+}
