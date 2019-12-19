@@ -1,0 +1,51 @@
+{
+    "id": "f72008d02c84c38b910ea65221aef39e",
+    "name": "Box Car",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "5f52a4e91804466369fb73291d378b65",
+            "name": "Subscribe to Provider",
+            "url": "httpsboxcar.io\/devices\/providers\/%7Bprovider_key%7D\/\/notifications\/subscribe",
+            "description": "This sends the user with the matching e-mail address a push notification which requests that they add your service. This will ease integration with your website, as you will have already registered them on your system and can identify whom they are based on their Boxcar e-mail address. Please note, this API call is an exception and will return an HTTP status code of 404 if we are unable to find the registered user by e-mail in our system. If the email address is not found in our system, we'll se",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "provider_key",
+                    "description": "The API key.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "email",
+                    "description": "The user's e-mail address.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "f72008d02c84c38b910ea65221aef39e",
+            "rawModeData": ""
+        }
+    ]
+}
