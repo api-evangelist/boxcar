@@ -1,5 +1,5 @@
 {
-    "id": "f72008d02c84c38b910ea65221aef39e",
+    "id": "236f41eec1221596efbccf3581f6e3f0",
     "name": "Box Car",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "5f52a4e91804466369fb73291d378b65",
+            "id": "720a99a12149e6928d40e6c15673d320",
             "name": "Subscribe to Provider",
             "url": "httpsboxcar.io\/devices\/providers\/%7Bprovider_key%7D\/\/notifications\/subscribe",
             "description": "This sends the user with the matching e-mail address a push notification which requests that they add your service. This will ease integration with your website, as you will have already registered them on your system and can identify whom they are based on their Boxcar e-mail address. Please note, this API call is an exception and will return an HTTP status code of 404 if we are unable to find the registered user by e-mail in our system. If the email address is not found in our system, we'll se",
@@ -44,7 +44,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "f72008d02c84c38b910ea65221aef39e",
+            "collectionId": "236f41eec1221596efbccf3581f6e3f0",
             "rawModeData": ""
         }
     ]
